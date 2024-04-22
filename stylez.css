@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#d3eefe;
+}
+
+h1{
+    font-family:"Franklin Gothic Medium";
+    color:#43515c;
+    font-size:70px;
+    font-weight:lighter;
+    letter-spacing: -5px;
+    padding: 50px 0px 0px 0px;
+    z-index: 999;
+  position:absolute;
+}
+
+
+.first{
+    width:100%;
+    height:150vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.first .images-wrapper {
+    position:absolute;
+}
+
+.ingredient{
+    position: absolute;
+    width:400px;
+    left:calc(50%-400px);
+    height:530px;
+    top:420px;
+}
+
+.sec01{
+    position: absolute;
+    top:20px;
+    right:-150px;
+}
+.sec02{
+    position: absolute;
+    top:90px;
+    right:-20px;
+}
+.sec03{
+    position: absolute;
+    top:110px;
+    right:-150px;
+}
+.sec04{
+    position: absolute;
+    top:210px;
+    right:-30px;
+}
+.sec05{
+    position: absolute;
+    top:235px;
+    right:0px;
+}
+.sec06{
+    position: absolute;
+    top:180px;
+    right:60px;
+}
+.sec07{
+    position: absolute;
+    top:260px;
+    right:-140px;
+}
+.sec08{
+    position: absolute;
+    top:330px;
+    right:-40px;
+}
+.sec09{
+    position: absolute;
+    top:380px;
+    right:-140px;
+}
+
+.second{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    position:relative;
+}
+
+.second .images-wrapper{
+    position: absolute;
+    display:flex;
+    padding:200px 0;
+    top:20%;
+    overflow:hidden;
+}
+
+.cont{
+    overflow:hidden;
+    height:100%;
+}
+.cont :hover{
+    opacity: 0.5;
+    
+}
+
+.third{
+    width:100%;
+    height:150vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+    position:relative;
+}
+
+.third .images-wrapper{
+    margin-top:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third .images-wrapper img{
+    position: absolute;
+}
+
+.forth{
+    width:100%;
+    height:150vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+    position:relative;
+}
+
+.forth .images-wrapper{
+    margin-top:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forth .images-wrapper img{
+    position: absolute;
+}
